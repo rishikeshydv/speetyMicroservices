@@ -21,7 +21,7 @@ class App extends Component {
       path: '/myapp',
     });
 
-    peer.on('open', (id) => {
+    peer.on('open', (id ) => {
       this.setState({
         myId: id,
         peer: peer
